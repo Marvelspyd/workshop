@@ -1,0 +1,41 @@
+.cardbody{
+    border: 7px solid rgb(93, 105, 105);
+    padding: 1%;
+    margin: 1%;
+    font-size: 30px;
+    border-radius: 25;
+    text-align: center;
+    background-color: dimgray;
+    border-radius: 3%;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 10%;
+    padding: 2%;   
+}
+ button{
+     background-color: cadetblue;
+ }
+@media 0nly screen and (min-width: 320px) and (max-width: 480px){
+    .card{
+        display: flex;
+        flex-direction: row;
+      }
+    .cardbody{
+        width: auto;
+        font-size: 30px;
+        background-color: black;
+    }
+      button{
+        font-size: 30px;
+
+        
+        }
+    } 
+    
+
+    
